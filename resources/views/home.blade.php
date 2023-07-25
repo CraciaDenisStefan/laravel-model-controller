@@ -17,7 +17,11 @@
 
 <body>
 
- prova
+ @foreach($comics as $comic)
+
+ {{$comic['series']}}
+
+ @endforeach
 
 </body>
 
