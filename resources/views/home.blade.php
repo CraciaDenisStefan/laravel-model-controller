@@ -6,7 +6,7 @@
     <div class="row">
         @foreach($comics as $comic)
         <div class="card_fumetto col-12 col-md-6 col-lg-2 text-white my-5">
-            <a href="/">
+            <a href="{{route('comic.show',$comic->id)}}">
                 <img src="{{ $comic->thumb }}" alt="">
                 <div class="title_card mb-1">
                     {{ $comic->series }}
