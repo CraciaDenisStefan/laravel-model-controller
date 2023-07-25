@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: rgb(11, 49, 131);
+    background-color: rgb(28, 63, 138);
 }
 
 .card_fumetto{
@@ -26,4 +26,14 @@ body{
         text-decoration: none;
         color:white
     }
+}
+
+.info_comic{
+
+    img{
+        animation: ombra 2s infinite;
+    }
+    @keyframes ombra {
+        50% {box-shadow: 1px 2px 100px rgb(167, 1, 1);}
+      }
 }
